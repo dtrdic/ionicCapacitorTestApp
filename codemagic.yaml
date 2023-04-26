@@ -10,7 +10,7 @@ workflows:
       groups:
         - google_play_credentials
       vars:
-        PACKAGE_NAME: "io.codemagic.dtrdic7"
+        PACKAGE_NAME: "io.codemagic.dtrdic8"
       node: latest
     scripts:
       - name: Install npm dependencies for Ionic project

@@ -1,4 +1,4 @@
-package com.codemagicioniccapacitor;
+package io.codemagic.dtrdic8;
 
 import android.os.Bundle;
 

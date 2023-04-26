@@ -1,5 +1,5 @@
 {
-  "appId": "com.codemagicioniccapacitor",
+  "appId": "io.codemagic.dtrdic8",
   "appName": "codemagicioniccapacitor",
   "bundledWebRuntime": true,
   "npmClient": "npm",

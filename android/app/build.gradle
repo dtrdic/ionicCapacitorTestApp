@@ -5,7 +5,7 @@ android {
     
     def appVersionCode = Integer.valueOf(System.env.BUILD_NUMBER ?: 1)
     defaultConfig {
-        applicationId "com.codemagicioniccapacitor"
+        applicationId "io.codemagic.dtrdic8"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode appVersionCode

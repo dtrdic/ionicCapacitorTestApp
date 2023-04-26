@@ -452,3 +452,4 @@ Documentation on [using codemagic.yaml](https://docs.codemagic.io/yaml-basic-con
 
 
 # IonicCapacitorTestApp
+# ionicCapacitorTestApp

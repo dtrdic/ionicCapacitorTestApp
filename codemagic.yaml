@@ -25,6 +25,7 @@ workflows:
           # npx cap copy
           #
           # to update native dependencies, use this command:
+          npx cap copy
           npx cap sync
       - name: Build Android release
         script: | 

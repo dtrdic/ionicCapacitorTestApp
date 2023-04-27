@@ -11,7 +11,6 @@ workflows:
         - google_play_credentials
       vars:
         PACKAGE_NAME: "io.codemagic.dtrdic8"
-      node: latest
     scripts:
       - name: Install npm dependencies for Ionic project
         script: |
@@ -21,11 +20,6 @@ workflows:
           echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
       - name: Update dependencies and copy web assets to native project
         script: | 
-          # if you don't need to update native dependencies, use this:
-          # npx cap copy
-          #
-          # to update native dependencies, use this command:
-          npx cap copy
           npx cap sync
       - name: Build Android release
         script: | 
